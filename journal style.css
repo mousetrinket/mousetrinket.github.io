@@ -58,3 +58,12 @@ a { color: darkolivegreen;
 a:hover {
 text-decoration: underline;
 }
+
+.static {
+  position: absolute;
+  background: white;
+ }
+
+.static:hover {
+  opacity: 0;
+ }
