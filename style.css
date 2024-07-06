@@ -63,3 +63,19 @@ a { color: darkolivegreen;
 a:hover {
   text-decoration: underline;
 }
+
+.flex-container {
+  display: flex;
+
+}
+
+.flex-container > div {
+  margin: 5px;
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+  flex-basis: 100%;
+}
+</style>
+</head>
+<body>
